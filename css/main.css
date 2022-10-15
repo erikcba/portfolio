@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.portada {
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../imagenes/portada-portfolio.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body {
+    background-color: #16161a;
+}
+
+.portada__titulo {
+    backdrop-filter: blur(8px);
+    background-color: #242629(150, 149, 149, 0.156);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 5px;
+    height: 150px;
+    width: 15%;
+}
+
+.portada__titulo h1 {
+    color:#2cb67d;
+    font-size: 3rem;
+    font-weight:600;
+}
+
+.portada p {
+    color:#fffffe;
+    font-size: 1.7rem;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titulo h2{
+    text-align: left;
+    color: #2cb67d;
+    font-size: 2.3rem;
+    padding: 50px;
+}
+
+.sobre-mi__container {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items:inherit;
+    justify-content: space-evenly;
+    padding-bottom: 60px;
+}
+
+.sobre-mi__texto {
+    width: 30%;
+}
+
+.sobre-mi__conocimientos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.conocimientos__titulo {
+    text-align: left;
+    color: #2cb67d;
+    font-size: 1.7rem;
+    padding-bottom: 30px;
+}
+
+.conocimientos__imagenes {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sobre-mi__texto h2 {
+    text-align: left;
+    color: #2cb67d;
+    font-size: 2.3rem;
+    padding-bottom: 30px;
+}
+
+.sobre-mi__texto span {
+    color: #fffffe;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.sobre-mi__texto p {
+    color: #fffffe;
+    font-size: 1.2rem;
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+.sobre-mi {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sobre-mi__imagen {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sobre-mi__imagen span {
+    color: #fffffe;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.html-logo {
+    width: 80px;
+    height: 70px;
+}
+
+.css-logo{
+    width: 60px;
+    height: 70px;
+}
+
+.bootstrap-logo {
+    width: 80px;
+    height: 70px;
+}
+
+.servicios__contenedor {
+    background-color:#fffffe;
+}
+
+.tarjetas__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.servicios__tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    padding: 50px;
+}
+
+.tarjeta__imagen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjeta__imagen img {
+    width: 50%;
+    height: 50%;
+}
+
+.tarjeta__titulo {
+    color: #242629;
+    padding: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.tarjeta__descripcion {
+    height: 75px;
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: 500;
+}
