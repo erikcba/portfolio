@@ -16,11 +16,61 @@
 <body>
     <header>
 
+        <div class="navegacion">
+
+            <a href="index.html"  >
+                <h2 class="logo"> ET </h2>
+            </a>
+
+            <a href="#abierto" class="header__icono">
+              <i class="fa-solid fa-bars"></i>
+            </a>   
+
+
+            <nav class="nav" id="abierto">
+
+                <ul class="nav__menu">
+
+                    <li>
+                        <a href="#Inicio">Inicio</a>
+                    </li>
+
+                    <li>
+                        <a href="#SobreMi">Sobre Mi</a>
+                    </li>
+
+                    <li>
+                        <a href="#Servicios">Servicios</a>
+                    </li>
+
+                    <li>
+                        <a href="#MisTrabajos">Mis Trabajos</a>
+                    </li>
+
+                    <li>
+                        <a href="#Contacto">Contacto</a>
+                    </li>
+
+                    
+
+                    <li class="menu__item--oculto">
+                      <a href="#cerrado"><i class="fa-solid fa-circle-xmark"></i></a>
+                    </li>
+
+
+                </ul>
+
+                
+
+            </nav>
+
+        </div>
+
     </header>
 
     <main>
 
-        <section class="portada" >
+        <section class="portada" id="Inicio">
 
             <div class="portada__titulo">
                 <h1>Erik Tomaselli</h1>
@@ -29,7 +79,7 @@
 
         </section>
 
-       <section class="sobre-mi__container">
+       <section class="sobre-mi__container" id="SobreMi">
 
             <div class="sobre-mi">
 
@@ -73,7 +123,7 @@
 
        </section>
 
-       <section class="servicios__contenedor" data-aos="fade-up">
+       <section class="servicios__contenedor" data-aos="fade-up" id="Servicios">
 
         <div class="titulo">
             <h2>Servicios</h2>
@@ -157,7 +207,7 @@
        </section>
 
 
-       <section class="proyectos__contenedor" data-aos="zoom-in">
+       <section class="proyectos__contenedor" data-aos="zoom-in" id="MisTrabajos">
 
             <div class="titulo">
                 <h2>Mis Trabajos</h2>
