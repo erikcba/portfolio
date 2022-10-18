@@ -196,3 +196,43 @@ body {
     text-align: center;
     font-weight: 500;
 }
+
+.proyectos__contenedor {
+    height: 600px;
+    background-color: #16161a;
+}
+
+.proyectos__contenedor-tarjetas {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.proyectos__tarjeta {
+    width: 20%;
+    height: 60%;
+    border-radius: 8px;
+    margin: 20px 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.proyectos__tarjeta:hover {
+    transform: scale(1.06);
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.proyectos__tarjeta-1 {
+    background-image: url(../imagenes/screencapture-erikcba-github-io-cabanas-muestra-2022-10-14-10_54_48.png);
+}
+
+.proyectos__tarjeta-2 {
+    background-image: url(../imagenes/screencapture-erikcba-github-io-web-entrenador-coder-2022-10-17-20_49_26.png);
+}
+
+.proyectos__tarjeta-3 {
+    background-image: url(../imagenes/screencapture-erikcba-github-io-landing-page-prueba-2022-10-17-20_50_23.png);
+}
