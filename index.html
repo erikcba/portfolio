@@ -250,11 +250,58 @@
 
             </div>
 
-       </section>
+        </section>
 
-       <section class="formulario__container">
+       <section class="formulario__container" id="Contacto">
 
-       </section>
+            <div class="titulo">
+                <h2>Contactate conmigo</h2>
+            </div>
+
+            <form action="https://formspree.io/f/xyyvdvoq" method="POST" autocomplete="nope">
+
+                <ul class="formulario__inputs">
+                    <li>
+                        <label for="name">Nombre:</label>
+                    </li>
+
+                    <li>
+                        <input type="text" id="name" name="user_name" placeholder="Nombre*" required>
+                    </li>
+
+                    <li>
+                    <label for="mail">Correo electrónico:</label>
+                    </li>
+
+                    <li>
+                        <input type="email" id="mail" name="user_mail" autocomplete="nope" placeholder="Correo electrónico*" required>
+                    </li>
+
+                    <li>
+                    <label for="msg">Mensaje:</label>
+                    </li>
+
+                    <li>
+                        <textarea id="msg" name="user_message" required></textarea>
+                    </li>
+
+                    <li class="button">
+                        <button type="submit">Envíe su mensaje</button>
+                    </li>
+
+                </ul>
+
+            </form>
+
+        </section>
+
+        <footer>
+
+            <span>Copyright 2022© <br> Todos los derechos reservados </span>
+            
+        </footer>
+
+    
 
 
     </main>
