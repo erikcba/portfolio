@@ -18,6 +18,14 @@ header {
     z-index: 1000000;
 }
 
+.header__icono {
+    display: none;
+ }
+  
+.menu__item--oculto {
+    display: none; 
+}
+
 .navegacion {
     display: flex;
     align-items: center;
@@ -386,6 +394,46 @@ footer{
 
     header {
         width: 100%;
+    }
+
+    .nav {
+        display: block;
+        background-color: white;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        z-index: 1000000;
+        width: 70%;
+        height: 100vh;
+        transition: left 1s; }
+
+    .nav:target {
+        display: block;
+        left: 0; 
+    }
+    .nav__menu {
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        height: 100vh;
+        gap: 2rem;
+        width: 100%;
+        padding: 0;
+        background-color:#16161a;
+    }
+    .menu__item--oculto {
+        display: block;
+    }
+
+    .header__icono {
+        display: block; 
+    }
+      
+    
+
+    .menu__item--oculto a:hover {
+        border: none;
+        color: crimson;
     }
 
     .portada {
