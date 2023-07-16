@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Bai Jamjuree', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
+    scroll-padding-top: 90px;
 }
 
 html{
@@ -13,7 +14,7 @@ html{
 header {
     height: 80px;
     width: 100%;
-    background-color: #16161ade ;
+    background-color: #16161af1 ;
     position: fixed;
     z-index: 1000000;
 }
@@ -22,9 +23,7 @@ header {
     display: none;
  }
   
-.menu__item--oculto {
-    display: none; 
-}
+
 
 .navegacion {
     display: flex;
@@ -55,6 +54,10 @@ header {
 
 .nav__menu li {
     margin: 8px;
+}
+
+.menu__item--oculto {
+    display: none;
 }
 
 .portada {
@@ -204,6 +207,12 @@ body {
     height: 70px;
 }
 
+.javascript-logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+}
+
 .servicios__contenedor {
     background-color:#fffffe;
 }
@@ -260,6 +269,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .proyectos__tarjeta {
@@ -388,7 +398,31 @@ footer{
     text-align: center;
     padding-top: 30px;
     color: #fffffe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
 }
+
+.github-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.github-logo svg {
+    width: 30px;
+    height: 30px;
+}
+
+footer a{
+    color: #fffffe;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
 
 @media screen and (max-width: 576px) {
 
@@ -405,7 +439,8 @@ footer{
         z-index: 1000000;
         width: 70%;
         height: 100vh;
-        transition: left 1s; }
+        transition: left 1s;
+     }
 
     .nav:target {
         display: block;
