@@ -131,6 +131,7 @@ body {
 .sobre-mi__conocimientos {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     width: 30%;
@@ -146,6 +147,8 @@ body {
 .conocimientos__imagenes {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
     align-items: center;
     justify-content: space-evenly;
 }
